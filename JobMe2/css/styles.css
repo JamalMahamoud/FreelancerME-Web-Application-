@@ -1,0 +1,237 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: black;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #a80038;
+  color: #fff;
+}
+
+.displayroles{
+  background-color: #272343;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.allnav{
+  background-color: #a80038;
+  color: #fff;
+  height: 10%;
+
+}
+.review{
+background-color: #f4f3f3;
+
+}
+
+
+.allnavband{
+padding-left: 10%;
+padding-bottom: 0;
+}
+.fornav{
+  padding: 12 2 3 4rem;
+}
+/* */
+.white-section{
+  background-color: #fafafa;
+margin-top: 20px;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  background-color:  #16213e;
+
+}
+.download-buttonsignin{
+  margin: 5% 3% 5% 0;
+  background-color:  #a80038;
+
+}
+
+.download-buttonsignin:hover{
+  margin: 5% 3% 5% 0;
+  background-color:  #16213e;
+
+}
+
+.cardtitle{
+  font-size: 22px;
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: #a80038;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width:100%;
+  height:auto;
+  padding-left: 20%;
+  transform: rotate(25deg);
+  display: block;
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+.pricing-column{
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.pricing-column:hover{
+  transform: scale(1.1);
+  box-shadow: #000;
+
+
+}
+#features {
+  position:static;
+  background-color: white;
+
+}
+.cad{
+margin: 20px 20px 20px 20px;
+width: 18rem;
+color:Black;
+
+}
+.cardimage{
+  height: 192px;
+  width: 284px;
+}
+.indcardimage{
+width:930px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+.section-heading{
+  margin-top: 20px;
+  padding-top: 30px;
+}
+.icon {
+  color: #a80038;
+  margin-bottom: 1rem;
+  margin-right: 20px;
+}
+
+.icon:hover {
+  color: #1a1a2e;
+}
+.rolecardimage{
+  position: relative;
+
+/* Footer Section */
+.alertt{
+  background-color: #a80038;
+}
+.white-section1{
+    background-color: #a80038;
+    color: #fcf5ee;
+    height: 89%;
+    padding-top:
+
+}
+
+.f{
+  color: white; for
+}
+.footer{}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  /* sign up page  */
+}
+
+
+
+.signupform{
+  padding-left: 50%;
+}
+
+#footer{
+  position: sticky;
+}
+
+/* admin css start from here  */
